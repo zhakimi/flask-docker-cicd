@@ -1,3 +1,5 @@
+![CI](https://github.com/zhakimi/flask-docker-cicd/actions/workflows/ci.yml/badge.svg)
+
 # flask-docker-cicd
 
 A small Flask service with a production-style Dockerfile and a complete GitHub Actions CI/CD pipeline: every push is linted and tested; pushes to `main` additionally build the container image and publish it to GitHub Container Registry.
